@@ -18,7 +18,7 @@
 
 # Test
 - on firefox and chrome
-- Windows 100% scaling.
+- Windows 100% scaling on 1080p resolution
 
 # issues
 
