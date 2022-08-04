@@ -1,0 +1,122 @@
+:root {
+  --font1 : "Red Rose";
+  --font2 : "Dela Gothic One"
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body, html {
+  height: 100%;
+}
+
+.container {
+  background:linear-gradient(
+    to right bottom,
+    rgba(18, 11, 28, 0.781),
+    rgba(12, 2, 29, 0.705)
+  ), url('./assets/pexels-maxyne-barcel-10402282\ 1.png') center no-repeat fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+  height: 100%;
+  overflow: hidden;
+  padding: 2px 45px;
+}
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 24px 12px;
+  justify-content: space-between;
+  font-family: "Red Rose";
+  font-weight: 400;
+  font-size: 24px;
+  /* border: 2px solid black; */
+}
+
+div img {
+  height: 54px;
+  margin-left: 24px;
+  margin-top: 12px;
+}
+
+.list {
+  list-style-type: none;
+  padding-top: 12px;
+}
+
+.list-item {
+  display: inline;
+  margin-right: 160px;
+  color: #fec930;
+}
+
+.button-small {
+  color: #ffffff;
+  background-color: #DE4839;
+  font-family: var(--font1), sans-serif;
+  font-weight:600;
+  padding: 13px 32px;
+  border: transparent;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.list-item:hover {
+  text-decoration: underline;
+  letter-spacing: 1px;
+
+}
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 90vh;
+  padding: 24px 56px;
+
+}
+
+.hero-heading {
+  text-align: center;
+  font-family: var(--font2);
+  font-weight:400;
+  color: #fec930;
+  font-size: 110px;
+  width: 90%;
+  margin: auto;
+  /* border: 2px solid black; */
+}
+
+.button-large {
+  color: #ffffff;
+  background-color: #DE4839;
+  font-family: var(--font1), sans-serif;
+  font-weight:600;
+  margin-top: 16px;
+  padding: 15px 32px;
+  border: transparent;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.bottom {
+  align-self: flex-end;
+  padding: 32px 24px;
+}
+
+.bottom img {
+  height: 180px;
+}
