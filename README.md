@@ -15,3 +15,11 @@
 
 # Links
 [Demo](https://restorant-page-o101.netlify.app/)
+
+# Test
+- on firefox and chrome
+- Windows 100% scaling.
+
+# issues
+
+- Not responsive
